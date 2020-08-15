@@ -37,6 +37,14 @@ task('data', async ()=>{
   .pipe(dest('./dist/data'))
   .pipe(load.connect.reload())
 })
+
+// 处理media
+task('media', async ()=>{
+  src('./media/*.*')
+  .pipe(dest('./dist/media'))
+  .pipe(load.connect.reload())
+})
+
 // 处理html
 task('html', async ()=>{
   src('./pages/*.html')
@@ -49,6 +57,7 @@ task('watch',async ()=>{
   watch('./image/*.*',series('image'));
   watch('./sass/*.scss',series('sass'));
   watch('./script/*.js',series('script'));
+  watch('./media/*.*',series('media'));
   watch('./data/*.json',series('data'));
   watch('./pages/*.html',series('html'));
 })
@@ -63,4 +72,4 @@ task('connect',async ()=>{
 })
 
 // 构建开发包
-task('dev',series('delDist','image','sass','script','data','html','connect','watch'))
+task('dev',series('delDist','image','sass','script','media','data','html','connect','watch'))

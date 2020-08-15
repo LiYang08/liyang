@@ -1,88 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="http://at.alicdn.com/t/font_2003132_5sc5iw99u3.css">
-    <link rel="stylesheet" href="../css/swiper.css">
-    <style>
-        .swiper-container {
-            width: 1680px;
-            height: 560px;
-        }  
-        .swiper-wrapper{
-            margin: 0 auto;
-        }
-        .swiper-slide{
-            background-color: lightgreen;
-        }
-        .swiper-slide img{
-            display: block;
-            width: 1680px;
-            height: 560px;
-        }
-        .swiper-button-prev{
-            left: 80px;
-        }
-        .swiper-button-next{
-            right: 80px;
-        }
-        .swiper-container .hide{
-            opacity:0;
-        }
-      
-        .swiper-button-next::after{
-          font-size: 30px;
-        }
-        .swiper-button-prev::after{
-            font-size: 30px;
-        }
-        .swiper-button-next,.swiper-button-prev{
-            transition:opacity 0.5s;
-            border-radius: 50%;
-            width: 60px;
-            height: 60px;
-            border: 2px solid #ffffff;
-            color: #cccccc;
-        }
-        .swiper-pagination li{
-            background-color: #ffffff;
-            opacity: 1;
-            margin: 0 15px !important;
-            position: relative !important;
-        }
-        .swiper-container .my-bullet-active::after{
-           content: '';
-           width: 22px;
-           height: 22px;
-           border-radius: 50%;
-           border: 2px solid #ffffff;
-           position: absolute;
-           left: -9px;
-           top: -9px;
-        }
-        </style>
-</head>
-<body>
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="../image/bg1.webp" alt=""></div>
-            <div class="swiper-slide"><img src="../image/bg2.webp" alt=""></div>
-            <div class="swiper-slide"><img src="../image/bg3.webp" alt=""></div>
-            <div class="swiper-slide"><img src="../image/bg4.webp" alt=""></div>
-            <div class="swiper-slide"><img src="../image/bg5.webp" alt=""></div>
-        </div>
-        <!-- 如果需要分页器 -->
-        <div class="swiper-pagination"></div>
-        <!-- 如果需要导航按钮 -->
-        <div class="swiper-button-prev "></div>
-        <div class="swiper-button-next "></div>
-        <!-- 如果需要滚动条 -->
-        <!-- <div class="swiper-scrollbar"></div> -->
-    </div>
-    <script src="../script/swiper.js"></script>
-    <script>
+<!DOCTYPE html><html lang=en><head><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><title>Document</title><link rel=stylesheet type=text/css href=http://at.alicdn.com/t/font_2003132_5sc5iw99u3.css><link rel=stylesheet type=text/css href=../css/swiper-763e843083.css><link rel=stylesheet type=text/css href=../css/banner-7f9c7baa16.css></head><body><div class=swiper-container><div class=swiper-wrapper><div class=swiper-slide><img src=../image/bg1.webp></div><div class=swiper-slide><img src=../image/bg2.webp></div><div class=swiper-slide><img src=../image/bg3.webp></div><div class=swiper-slide><img src=../image/bg4.webp></div><div class=swiper-slide><img src=../image/bg5.webp></div></div><div class=swiper-pagination></div><div class=swiper-button-prev></div><div class=swiper-button-next></div></div><script src=../script/swiper-a1e9530a70.js></script><script>
       var mySwiper = new Swiper ('.swiper-container', {
     //direction: 'vertical', // 垂直切换选项
       direction: 'horizontal', // 水平切换选项
@@ -119,6 +35,4 @@
         mySwiper.navigation.$nextEl.addClass('hide');
         mySwiper.navigation.$prevEl.addClass('hide');
     }
-    </script>
-</body>
-</html>
+    </script></body></html>

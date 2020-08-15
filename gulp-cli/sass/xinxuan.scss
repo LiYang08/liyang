@@ -1,0 +1,202 @@
+.wrap{
+    width: 100%;
+    min-width: 1680px;
+    .xinxuan{
+        width: 1680px;
+        // height: 968px;
+        margin: 0 auto;
+        .xx_tit{
+            font-size:42px;
+            line-height: 42px;
+            font-weight: bold;
+            text-align: center;
+            color: #000000;
+            padding-top: 56px;
+            margin-bottom: 20px;
+        }
+    .xx_tab{
+        width: 1200px;
+        margin: 0 auto;
+        border-bottom: 1px solid #ccc;
+        li{
+            float: left;
+            width: 200px;
+            text-align: center;
+            font-size: 18px;
+            span{
+                display: inline-block;
+                padding: 10px;
+                height: 59px;
+                line-height: 58px;
+                box-sizing: border-box;
+                color: #444444;
+            }
+        }
+    }
+    .xx_tab_con{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        margin-top: 60px;
+        height: 730px;
+        .xx_product{
+            width: 1200px;
+            height: 730px;
+            position: absolute;
+            left: 50%;
+            top: 0;
+            margin-left: -600px;
+            z-index: 5;
+            text-align: center;
+            @mixin xx_img {
+                .pro_2_img{
+                    img{
+                        width: 180px;
+                        height: 180px;
+                        display: block;
+                        margin: 0 auto;
+                        padding-top: 55px;
+                        cursor: pointer;  
+                        transition: all 0.6s;  
+                    }
+                }
+                .img_msg_2{
+                    margin-top: 10px;
+                    height: 18px;
+                    width: 100%;
+                    line-height:18px;
+                    font-size: 18px;
+                    text-align: center;
+                    a{
+                        color: #000;
+                    }
+                }
+                .img_type_2{
+                    font-size: 14px;
+                    line-height: 14px;
+                    margin-top: 14px;
+                    a{
+                        color:#555555;
+                    }
+                } 
+            }
+            .pro_1{
+                position: relative;
+                width: 500px;
+                height: 642px;
+                float: left;
+                border-bottom:6px solid #e8ebf2;
+                background-color: #e8ebf2;
+                .pro_1_img{
+                    width: 500px;
+                    height: 500px;
+                    overflow: hidden;
+                    img{
+                        width: 460px;
+                        height: 460px;
+                        padding: 20px;
+                        cursor: pointer;  
+                        transition: all 0.6s;  
+                    }
+                } 
+                .img_msg{
+                    margin-top: 32px;
+                    height: 18px;
+                    width: 100%;
+                    line-height:18px;
+                    font-size: 18px;
+                    text-align: center;
+                    a{
+                        color: #000;
+                    }
+                }
+                .img_type{
+                    font-size: 14px;
+                    line-height: 44px;
+                    a{
+                        color:#555555;
+                    }
+                } 
+            }
+            .pro_1:hover{
+                border-bottom: 6px solid #005aaa;  
+                box-shadow:4px 4px 5px #cccccc, 4px 4px 5px #cccccc,4px 4px 5px #cccccc;
+                z-index: 20;  
+            }
+            .pro_1:hover img{
+                transform: scale(1.087);
+            }
+            .pro_2{
+                width: 350px;
+                height: 648px;
+                float: left;
+                .pro_2_top{
+                    position: relative;
+                    box-sizing: border-box;
+                    width: 100%;
+                    height: 324px;
+                    background-color: #ffffff;
+                   @include xx_img;
+                }
+                .pro_2_bto{
+                    position: relative;
+                    box-sizing: border-box;
+                    width: 100%;
+                    height: 324px;
+                    background-color: #fbfbfb;
+                    @include xx_img;
+                }
+            }
+            .pro_3{
+                width: 350px;
+                height: 648px;
+                float: left;
+                .pro_3_top{
+                    position: relative;
+                    width: 100%;
+                    height: 324px;
+                    background-color: #f1f2f6;
+                    box-sizing: border-box;
+                    @include xx_img;
+                }
+                .pro_3_bto{
+                    position: relative;
+                    box-sizing: border-box;
+                    width: 100%;
+                    height: 324px;
+                    background-color: #ffffff;
+                    @include xx_img;
+                }
+            }
+            .pro_2_top:hover img,.pro_2_bto:hover img,.pro_3_top:hover img,.pro_3_bto:hover img{
+                transform: scale(1.111);
+            }
+            .pro_2_top:hover,.pro_2_bto:hover,.pro_3_top:hover,.pro_3_bto:hover{
+                border-bottom: 6px solid #005aaa; 
+                box-shadow:4px 4px 5px #cccccc, 4px 4px 5px #cccccc;
+                z-index: 20;
+            }
+        }
+    }
+    .xx_tab_con::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 190px;
+        width: 100%;
+        background-color: #ffffff;
+        z-index: 1;
+    }
+    .xx_tab_con::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 190px;
+        width: 100%;
+        height: 540px;
+        background-color: #f6f7f9;
+        z-index: 1;
+    }
+  }
+}

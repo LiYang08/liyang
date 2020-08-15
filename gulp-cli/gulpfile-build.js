@@ -52,7 +52,7 @@ task('html', async ()=>{
   .pipe(load.revCollector({replaceReved:true}))
   .pipe(load.minifyHtml())
   .pipe(dest('./dist/pages'))
-  }, 2500);
+  }, 3500);
 })
 
 // 监听文件变化
