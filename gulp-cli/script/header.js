@@ -38,3 +38,15 @@ $("#inp_s").focus(function(){
 $("#inp_s").blur(function(){
     $(this).css("border","1px solid #ffffff");
 });
+
+/* 页面跳转 air */
+$('#skip').click(function () { 
+    if($('#inp_s').val()==='') $('#inp_s').val('独立除湿空调');
+    var str = $('#inp_s').val();
+    if(str.indexOf('空调')!=-1){
+        var keyword = "air";
+    }else {
+        alert('查询到此商品！');
+    }
+    open('./air.html?device='+keyword);
+})
