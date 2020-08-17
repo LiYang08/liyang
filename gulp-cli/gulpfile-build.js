@@ -45,6 +45,15 @@ task('data', async ()=>{
   .pipe(load.connect.reload())
 })
 
+// 处理media
+task('media', async ()=>{
+  src('./media/*.*')
+  .pipe(dest('./dist/media'))
+  .pipe(load.connect.reload())
+})
+
+
+
 // 处理html
 task('html', async ()=>{
   setTimeout(() => {
@@ -52,7 +61,7 @@ task('html', async ()=>{
   .pipe(load.revCollector({replaceReved:true}))
   .pipe(load.minifyHtml())
   .pipe(dest('./dist/pages'))
-  }, 3500);
+   }, 3500);
 })
 
 // 监听文件变化
@@ -73,4 +82,4 @@ task('connect',async ()=>{
 })
 
 // 构建生产包
-task('build',series('delDist','image','sass','script','data','html','connect'))
+task('build',series('delDist','image','sass','script','data','media','html','connect'));

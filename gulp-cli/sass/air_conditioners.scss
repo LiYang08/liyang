@@ -1,0 +1,94 @@
+.productSlider{
+    width: 100%;
+    background: rgb(240, 241, 244);
+    padding-top: 22px;
+    min-height: 670px;
+    .productFd{
+        width: 1200px;
+        padding: 15px;
+        height: auto;
+        margin: 0 auto;
+        .productTit{
+            line-height: 18px;
+            font-size:14px;
+            a{
+                color: #333;
+            }
+        }
+        .productDetail{
+            margin-top: 55px;
+            .product_left{
+                width: 500px;
+                height: auto;
+                .fdj{
+                    width: 480px;
+                    height: 480px;
+                    margin-right: 20px;
+                    position: relative;
+                    .fd_left{
+                        width: 480px;
+                        height: 480px;
+                        position: relative;
+                        img{
+                            width: 480px;
+                            height: 480px;
+                        }
+                        .mask{
+                            width: 160px;
+                            height: 160px;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            background-color: blue;
+                            opacity: .2;
+                            cursor: move;
+                            z-index: 1px;
+                            // display: none;
+                        }
+                     }
+                     .maxBox{
+                         width: 480px;
+                         height: 480px;
+                         overflow: hidden;
+                         position: absolute;
+                         left: 500px;
+                         top: 0px;
+                         background: #ffffff;
+                        img{
+                           width: 1200px;
+                           height: 1200px; 
+                           position: absolute;
+                           left: 0;
+                           top: 0;
+                        }
+                    }
+                }
+                .lunbo{
+                    width: 500px;
+                    height: 62px;
+                    margin: 10px 0 40px;
+                    .lbimg{
+                        width: 430px;
+                        margin:0 45px 0 25px;
+                        overflow-x: hidden;
+                        ul{
+                            width: 602px;
+                            height: 62px;
+                            li{
+                                float: left;
+                                width: 62px;
+                                padding: 0 12px;
+                                img{
+                                    width: 60px;
+                                    height: 60px;
+                                    border: 1px solid #cccccc;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

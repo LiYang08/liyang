@@ -33,7 +33,7 @@ task('script', async ()=>{
 })
 // 处理json
 task('data', async ()=>{
-  src('./data/*.json')
+  src('./data/*.*')
   .pipe(dest('./dist/data'))
   .pipe(load.connect.reload())
 })
