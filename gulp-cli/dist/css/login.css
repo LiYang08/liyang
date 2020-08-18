@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* 登录 */
+.login {
+  width: 1236px;
+  height: 60px;
+  margin: 0 auto; }
+  .login .login_left img {
+    height: 21px;
+    width: 71px;
+    display: inline-block;
+    vertical-align: text-bottom; }
+  .login .login_left span {
+    font-size: 16px;
+    color: #333;
+    line-height: 60px;
+    margin-left: 18px;
+    display: inline-block; }
+  .login .login_right {
+    text-align: right; }
+    .login .login_right .setup {
+      color: #32beff;
+      font-size: 14px;
+      padding-right: 20px;
+      border-right: 1px solid #dddddd; }
+    .login .login_right .vipl {
+      font-size: 14px;
+      padding-left: 20px;
+      color: #666; }
+
+.login > div {
+  width: 618px;
+  height: 60px;
+  float: left;
+  line-height: 60px; }
+
+/* banner */
+.banner {
+  width: 100%;
+  height: 817px;
+  background: url(../image/login_banner.jpg) -40px -60px; }
+  .banner .loginWrap {
+    width: 1238px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden; }
+    .banner .loginWrap .loginCon {
+      width: 618px;
+      margin-left: 618px;
+      margin-top: 203px;
+      height: auto; }
+      .banner .loginWrap .loginCon .loginbox {
+        width: 420px;
+        background-color: #fff;
+        text-align: center;
+        height: 450px;
+        margin: 0 auto; }
+        .banner .loginWrap .loginCon .loginbox .login_tit {
+          height: 60px;
+          width: 100%;
+          line-height: 60px;
+          font-size: 16px;
+          text-indent: 30px;
+          color: #333333;
+          border-bottom: 1px solid #e5e5e5;
+          text-align: left; }
+        .banner .loginWrap .loginCon .loginbox .login_sel {
+          height: 39px;
+          width: 360px;
+          margin: 25px auto 25px; }
+          .banner .loginWrap .loginCon .loginbox .login_sel .login_pc {
+            line-height: 38px;
+            margin-right: 40px;
+            padding-left: 50px;
+            color: #005aaa;
+            position: relative; }
+            .banner .loginWrap .loginCon .loginbox .login_sel .login_pc i {
+              position: absolute;
+              left: 0;
+              top: 0;
+              font-size: 36px; }
+            .banner .loginWrap .loginCon .loginbox .login_sel .login_pc span {
+              font-size: 14px;
+              height: 38px; }
+          .banner .loginWrap .loginCon .loginbox .login_sel .login_phone {
+            width: 84px;
+            padding-left: 48px;
+            line-height: 38px;
+            position: relative; }
+            .banner .loginWrap .loginCon .loginbox .login_sel .login_phone i {
+              position: absolute;
+              left: 0;
+              top: 0;
+              font-size: 32px;
+              color: #999; }
+            .banner .loginWrap .loginCon .loginbox .login_sel .login_phone div {
+              text-align: left;
+              display: inline-block;
+              font-size: 14px;
+              color: #999;
+              line-height: 19px; }
+              .banner .loginWrap .loginCon .loginbox .login_sel .login_phone div span {
+                display: block; }
+              .banner .loginWrap .loginCon .loginbox .login_sel .login_phone div em {
+                display: block; }
+          .banner .loginWrap .loginCon .loginbox .login_sel .login_ecode {
+            width: 34px;
+            margin-left: 48px; }
+            .banner .loginWrap .loginCon .loginbox .login_sel .login_ecode i {
+              font-size: 32px;
+              color: #999; }
+        .banner .loginWrap .loginCon .loginbox .login_sel > div {
+          float: left; }
+        .banner .loginWrap .loginCon .loginbox form .user, .banner .loginWrap .loginCon .loginbox form .pass {
+          height: 75px;
+          position: relative;
+          font-size: 10px; }
+          .banner .loginWrap .loginCon .loginbox form .user i, .banner .loginWrap .loginCon .loginbox form .pass i {
+            position: absolute;
+            left: 42px;
+            top: 12px;
+            font-size: 26px;
+            z-index: 5;
+            color: #999999; }
+          .banner .loginWrap .loginCon .loginbox form .user input, .banner .loginWrap .loginCon .loginbox form .pass input {
+            position: relative;
+            font-size: 14px;
+            width: 307px;
+            height: 42px;
+            line-height: 42px;
+            color: #999;
+            outline: 0;
+            padding: 3px 3px 3px 48px;
+            border: 1px solid #dddddd; }
+          .banner .loginWrap .loginCon .loginbox form .user .psw, .banner .loginWrap .loginCon .loginbox form .pass .psw {
+            width: 272px;
+            padding: 3px 38px 3px 48px; }
+          .banner .loginWrap .loginCon .loginbox form .user em, .banner .loginWrap .loginCon .loginbox form .pass em {
+            font-size: 26px;
+            position: absolute;
+            right: 40px;
+            top: 12px;
+            z-index: 5;
+            color: #32beff; }
+        .banner .loginWrap .loginCon .loginbox form .denglu_icon {
+          margin: 0 auto 20px;
+          height: 24px;
+          text-indent: 35px;
+          line-height: 24px;
+          font-size: 14px;
+          position: relative;
+          text-align: left;
+          width: 362px; }
+          .banner .loginWrap .loginCon .loginbox form .denglu_icon i {
+            display: block;
+            width: 24px;
+            height: 24px;
+            background: url(../image/login_icon.gif) no-repeat 0 -282px;
+            position: absolute;
+            left: 0;
+            top: 0; }
+          .banner .loginWrap .loginCon .loginbox form .denglu_icon .remeber {
+            background: url(../image/login_icon.gif) no-repeat 0 -306px; }
+        .banner .loginWrap .loginCon .loginbox form .submitBtn {
+          display: block;
+          text-align: center;
+          width: 360px;
+          height: 50px;
+          line-height: 50px;
+          color: #fff;
+          font-size: 16px;
+          letter-spacing: 2px;
+          position: relative;
+          z-index: 99;
+          cursor: pointer;
+          background-color: #c6cacb;
+          border: none;
+          margin: 0 auto; }

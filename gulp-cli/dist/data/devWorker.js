@@ -39,9 +39,9 @@ self.onmessage = function (e){
               var str = "";
               if(json.length>0){
                 json.forEach(item => {
-                  str += `<li>
-                    <div class="databox" over=${item.over}>
-                       <a href="./air_conditioners.html" class="imgbox" target="_blank" id=${item.id}><img src="${item.src}" alt=""></a>
+                  str += 
+                  `<li><div class="databox" over=${item.over}>
+                       <a href="./air_conditioners.html?id=${item.id}" class="imgbox" target="_blank" ><img src="${item.src}" alt=""></a>
                        <div class="textbox">
                          <a href="./air_conditioners.html" class="ink_base" target="_blank">${item.tit}</a>
                          <p>${item.kfr}</p>
@@ -49,7 +49,7 @@ self.onmessage = function (e){
                         <p class="jiage">参考价:<b>${item.price}</b></p>
                         <p class="Interaction"><a href="#">0</a>家电商在售 <i class="iconfont icon-redu"></i><a href="#" class="hot">${item.hot}</a></p>
                     </div>
-                  </li> `;
+                  </li>`;
                 });
               }else{
                 str+=`<li class="noRes">

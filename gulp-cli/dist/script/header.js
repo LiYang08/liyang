@@ -1,3 +1,4 @@
+
 /* 数据加载 */
 $('.dist_a').on("mouseenter","a" ,function () {
     $('.cate_con').html('');
@@ -49,4 +50,13 @@ $('#skip').click(function () {
         alert('查询到此商品！');
     }
     open('./air.html?device='+keyword);
+})
+
+
+
+$('#yhtx').click(function () { 
+    console.log("aaaa")
+  if(!$('#yhtx').hasClass('yh')){
+      open('../pages/login.html');
+  }
 })

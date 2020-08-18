@@ -58,7 +58,7 @@ task('watch',async ()=>{
   watch('./sass/*.scss',series('sass'));
   watch('./script/*.js',series('script'));
   watch('./media/*.*',series('media'));
-  watch('./data/*.json',series('data'));
+  watch('./data/*.*',series('data'));
   watch('./pages/*.html',series('html'));
 })
 

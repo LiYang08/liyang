@@ -1,0 +1,54 @@
+.login {
+  width: 1236px;
+  height: 60px;
+  margin: 0 auto; }
+  .login .login_left img {
+    height: 21px;
+    width: 71px;
+    display: inline-block;
+    vertical-align: text-bottom; }
+  .login .login_left span {
+    font-size: 16px;
+    color: #333;
+    line-height: 60px;
+    margin-left: 18px;
+    display: inline-block; }
+  .login .login_right {
+    font-size: 14px;
+    text-align: right; }
+    .login .login_right a {
+      color: #32beff; }
+
+.login > div {
+  width: 618px;
+  height: 60px;
+  float: left;
+  line-height: 60px; }
+
+.banner {
+  width: 100%;
+  height: 812px;
+  background: url(../image/siginin_banner.jpg) -40px -60px;
+  /*bootstrap ---start*/
+  /* bootstrap ---- end*/ }
+  .banner h1 {
+    height: 150px;
+    width: 100%;
+    line-height: 150px;
+    text-align: center;
+    color: #333;
+    font-size: 28px; }
+  .banner .container1 {
+    width: 840px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.3); }
+    .banner .container1 .form-horizontal {
+      padding-top: 40px;
+      width: 650px;
+      margin: 0 auto; }
+      .banner .container1 .form-horizontal .form-group {
+        width: 500px;
+        margin: 15px auto; }
+      .banner .container1 .form-horizontal .form-group button {
+        margin: 0 auto; }

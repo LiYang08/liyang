@@ -1,8 +1,9 @@
 .productSlider {
-  width: 100%;
+  width: 1680px;
   background: #f0f1f4;
-  padding-top: 22px;
-  min-height: 670px; }
+  padding: 22px 0 20px;
+  min-height: 670px;
+  margin: 0 auto; }
   .productSlider .productFd {
     width: 1200px;
     padding: 15px;
@@ -17,7 +18,8 @@
       margin-top: 55px; }
       .productSlider .productFd .productDetail .product_left {
         width: 500px;
-        height: auto; }
+        height: auto;
+        float: left; }
         .productSlider .productFd .productDetail .product_left .fdj {
           width: 480px;
           height: 480px;
@@ -41,13 +43,15 @@
               cursor: move;
               z-index: 1px; }
           .productSlider .productFd .productDetail .product_left .fdj .maxBox {
+            display: none;
             width: 480px;
             height: 480px;
             overflow: hidden;
             position: absolute;
             left: 500px;
             top: 0px;
-            background: #ffffff; }
+            background: #ffffff;
+            z-index: 30; }
             .productSlider .productFd .productDetail .product_left .fdj .maxBox img {
               width: 1200px;
               height: 1200px;
@@ -57,7 +61,8 @@
         .productSlider .productFd .productDetail .product_left .lunbo {
           width: 500px;
           height: 62px;
-          margin: 10px 0 40px; }
+          margin: 10px 0 40px;
+          position: relative; }
           .productSlider .productFd .productDetail .product_left .lunbo .lbimg {
             width: 430px;
             margin: 0 45px 0 25px;
@@ -74,3 +79,118 @@
                   height: 60px;
                   border: 1px solid #cccccc;
                   cursor: pointer; }
+                .productSlider .productFd .productDetail .product_left .lunbo .lbimg ul li .img_border {
+                  border: 1px solid #0c5ca8; }
+          .productSlider .productFd .productDetail .product_left .lunbo .btn-left {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -10px;
+            cursor: pointer; }
+            .productSlider .productFd .productDetail .product_left .lunbo .btn-left i {
+              font-weight: bold;
+              font-size: 20px;
+              color: #333; }
+          .productSlider .productFd .productDetail .product_left .lunbo .btn-right {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            margin-top: -12px;
+            cursor: pointer; }
+            .productSlider .productFd .productDetail .product_left .lunbo .btn-right i {
+              font-weight: bold;
+              font-size: 20px;
+              color: #999999; }
+      .productSlider .productFd .productDetail .product_right {
+        float: left;
+        width: 700px;
+        height: auto;
+        box-sizing: border-box;
+        padding-left: 258px;
+        padding-top: 70px; }
+        .productSlider .productFd .productDetail .product_right p {
+          color: #111;
+          line-height: 40px;
+          font-size: 36px;
+          font-weight: 700;
+          margin-bottom: 16px;
+          padding-right: 23px; }
+        .productSlider .productFd .productDetail .product_right span {
+          font-size: 18px;
+          color: #444;
+          display: block; }
+        .productSlider .productFd .productDetail .product_right .ckj_priceP {
+          margin-top: 100px; }
+          .productSlider .productFd .productDetail .product_right .ckj_priceP span {
+            display: inline-block;
+            font-size: 14px;
+            line-height: 1;
+            vertical-align: bottom; }
+          .productSlider .productFd .productDetail .product_right .ckj_priceP i {
+            display: inline-block;
+            font-size: 18px;
+            line-height: 1;
+            vertical-align: bottom; }
+          .productSlider .productFd .productDetail .product_right .ckj_priceP em {
+            font-size: 36px;
+            vertical-align: bottom;
+            line-height: 0.9;
+            position: relative;
+            top: 2px; }
+        .productSlider .productFd .productDetail .product_right .tip {
+          margin-top: 15px;
+          position: relative; }
+          .productSlider .productFd .productDetail .product_right .tip i {
+            position: absolute;
+            left: 2px;
+            top: 2px;
+            font-size: 14px;
+            color: #F7AB48; }
+          .productSlider .productFd .productDetail .product_right .tip p {
+            color: #888;
+            font-size: 12px;
+            position: relative;
+            padding-left: 16px;
+            margin-left: 10px;
+            line-height: 1.5;
+            padding-right: 80px; }
+        .productSlider .productFd .productDetail .product_right .buy_product {
+          margin-top: 78px;
+          position: relative; }
+          .productSlider .productFd .productDetail .product_right .buy_product .onlineBuy {
+            width: 200px;
+            height: 48px;
+            border-radius: 24px;
+            cursor: pointer;
+            background-color: #0c5ca8;
+            color: #fff;
+            line-height: 48px;
+            font-size: 18px;
+            text-align: center;
+            transition: box-shadow .3s;
+            position: absolute;
+            left: 0;
+            top: 0; }
+          .productSlider .productFd .productDetail .product_right .buy_product .ecode {
+            position: absolute;
+            left: 220px;
+            top: 7px;
+            height: 30px; }
+            .productSlider .productFd .productDetail .product_right .buy_product .ecode i {
+              font-size: 30px;
+              display: inline-block;
+              vertical-align: middle; }
+            .productSlider .productFd .productDetail .product_right .buy_product .ecode span {
+              font-size: 14px;
+              display: inline-block;
+              vertical-align: middle;
+              margin-left: 10px; }
+          .productSlider .productFd .productDetail .product_right .buy_product .lookfor {
+            width: 200px;
+            text-align: center;
+            font-size: 16px;
+            position: absolute;
+            top: 84px;
+            left: 0; }
+            .productSlider .productFd .productDetail .product_right .buy_product .lookfor a {
+              color: #0c5ca8; }

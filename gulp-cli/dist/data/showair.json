@@ -20,7 +20,7 @@
     {
         "id": "2",
         "src": "../image/a2.webp",
-        "tit": "劲铂 1.5匹壁挂式变频空调",
+        "tit": "京喜 1.5匹壁挂式变频空调",
         "kfr": "KFR-35GW/81@AU1-Da",
         "price":1599,
         "smart": true,
@@ -38,7 +38,7 @@
     {
         "id": "3",
         "src": "../image/a3.webp",
-        "tit": "劲铂 1.5匹壁挂式变频空调",
+        "tit": "先行者 3匹柜式变频空调",
         "kfr": "KFR-35GW/81@AU1-Da",
         "price":2599,
         "smart": true,
@@ -56,7 +56,7 @@
     {
         "id": "4",
         "src": "../image/a4.webp",
-        "tit": "劲铂 1.5匹壁挂式变频空调",
+        "tit": "先行者 2匹柜式变频空调",
         "kfr": "KFR-35GW/81@AU1-Da",
         "price":2599,
         "smart": true,
@@ -74,7 +74,7 @@
     {
         "id": "5",
         "src": "../image/a6.webp",
-        "tit": "劲铂 1.5匹壁挂式变频空调",
+        "tit": "先行者 3匹柜式变频空调",
         "kfr": "KFR-35GW/81@AU1-Da",
         "price":1599,
         "smart": true,
@@ -92,7 +92,7 @@
     {
         "id": "6",
         "src": "../image/a7.webp",
-        "tit": "劲铂 1.5匹壁挂式变频空调",
+        "tit": "净界 1.5匹壁挂式变频空调",
         "kfr": "KFR-35GW/81@AU1-Da",
         "price":2599,
         "smart": true,
@@ -110,7 +110,7 @@
     {
         "id": "7",
         "src": "../image/a5.webp",
-        "tit": "劲铂 1.5匹壁挂式变频空调",
+        "tit": "净界 1.5匹壁挂式变频空调",
         "kfr": "KFR-35GW/81@AU1-Da",
         "price":2699,
         "smart": true,
@@ -128,7 +128,7 @@
     {
         "id": "8",
         "src": "../image/a9.webp",
-        "tit": "劲铂 1.5匹壁挂式变频空调",
+        "tit": "节能风 1.5匹壁挂式变频空调",
         "kfr": "KFR-35GW/81@AU1-Da",
         "price":5599,
         "smart": true,
@@ -146,7 +146,7 @@
     {
         "id": "9",
         "src": "../image/a8.webp",
-        "tit": "劲铂 1.5匹壁挂式变频空调",
+        "tit": "星悦 大1匹壁挂式变频空调",
         "kfr": "KFR-35GW/81@AU1-Da",
         "price":4562,
         "smart": false,
@@ -164,7 +164,7 @@
     {
         "id": "10",
         "src": "../image/a10.webp",
-        "tit": "劲铂 1.5匹壁挂式变频空调",
+        "tit": "节能风 1匹壁挂式变频空调",
         "kfr": "KFR-35GW/81@AU1-Da",
         "price":3599,
         "smart": false,
@@ -182,7 +182,7 @@
     {
         "id": "11",
         "src": "../image/a11.webp",
-        "tit": "劲铂 1.5匹壁挂式变频空调",
+        "tit": "星悦 大1.5匹壁挂式变频空调",
         "kfr": "KFR-35GW/81@AU1-Da",
         "price":9599,
         "smart": false,
@@ -200,7 +200,7 @@
     {
         "id": "12",
         "src": "../image/a1.webp",
-        "tit": "劲铂 1.5匹壁挂式变频空调",
+        "tit": "节能风 1匹壁挂式变频空调",
         "kfr": "KFR-35GW/81@AU1-Da",
         "price":2599,
         "smart": true,
@@ -218,7 +218,7 @@
     {
         "id": "13",
         "src": "../image/a1.webp",
-        "tit": "劲铂 1.5匹壁挂式变频空调",
+        "tit": "节能风 1.5匹壁挂式变频空调",
         "kfr": "KFR-35GW/81@AU1-Da",
         "price":2599,
         "smart": false,
